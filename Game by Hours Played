@@ -1,0 +1,3 @@
+SELECT title, hours_played
+FROM favorite_games
+ORDER BY hours_played DESC;
