@@ -1,0 +1,4 @@
+SELECT title, genre 
+FROM favorite_games
+WHERE hours_played > 150 
+ORDER BY genre DESC; 
