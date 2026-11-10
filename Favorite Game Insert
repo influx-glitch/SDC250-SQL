@@ -1,0 +1,25 @@
+INSERT INTO favorite_games (title, genre, hours_played)
+VALUES
+('Elden Ring', 'RPG', 120),
+('Minecraft', 'Sandbox', 200),
+('Call of Duty', 'FPS', 90);
+('Fortnite', 'Battle Royale', 85),
+('Stardew Valley', 'Simulation', 150),
+('The Witcher 3', 'RPG', 180),
+('Rocket League', 'Sports', 60),
+('Apex Legends', 'Battle Royale', 140),
+('Cyberpunk 2077', 'RPG', 130),
+('Among Us', 'Party', 40),
+('Overwatch', 'Shooter', 95),
+('League of Legends', 'MOBA', 300),
+('Valorant', 'Shooter', 110),
+('Terraria', 'Sandbox', 220),
+('Skyrim', 'RPG', 250),
+('FIFA 24', 'Sports', 70),
+('Hades', 'Roguelike', 80),
+('GTA V', 'Open World', 210),
+('Red Dead Redemption 2', 'Open World', 190),
+('Destiny 2', 'Shooter', 160),
+('Animal Crossing', 'Simulation', 175),
+('Fall Guys', 'Party', 55),
+('Dark Souls III', 'RPG', 145); 
