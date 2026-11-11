@@ -1,0 +1,7 @@
+CREATE TABLE horror_movies (
+  movie_id SERIAL PRIMARY KEY,
+  title TEXT, 
+  release_year INTEGER,
+  director TEXT,
+  runtime_minutes INTEGER
+);
