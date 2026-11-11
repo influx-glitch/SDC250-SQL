@@ -1,0 +1,9 @@
+INSERT INTO horror_movies (title, release_year, director, runtime_minutes)
+VALUES
+('Psycho', 1960, 'Alfred Hitchcock', 109),
+('The Exorcist', 1973, 'William Friedkin', 122),
+('Halloween', 1978, 'John Carpenter', 91),
+('Alien', 1979, 'Ridley Scott', 117),
+('The Thing', 1982, 'John Carpenter', 109),
+('The Blob', 1958, 'Irvin S. Yeaworth Jr.', 86),
+('The Birds', 1963, 'Alfred Hitchcock', 119);
