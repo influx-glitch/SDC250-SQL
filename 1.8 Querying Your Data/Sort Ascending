@@ -1,0 +1,3 @@
+SELECT *
+FROM horror_movies
+ORDER BY release_year ASC;
