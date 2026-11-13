@@ -1,0 +1,14 @@
+INSERT INTO horror_movies (title, release_year, director, runtime_minutes)
+VALUES
+('Psycho', 1960, 'Alfred Hitchcock', 109),
+('The Exorcist', 1973, 'William Friedkin', 122),
+('Halloween', 1978, 'John Carpenter', 91),
+('Alien', 1979, 'Ridley Scott', 117),
+('The Thing', 1982, 'John Carpenter', 109),
+('The Blob', 1958, 'Irvin S. Yeaworth Jr.', 86),
+('The Birds', 1963, 'Alfred Hitchcock', 119),
+('A Nightmare on Elm Street', 1984, 'Wes Craven', 91),
+('Carrie', 1976, 'Brian De Palma', 98),
+('The Shining', 1980, 'Stanley Kubrick', 146),
+('Scream', 1996, 'Wes Craven', 111),
+('Night of the Living Dead', 1968, 'George A. Romero', 96);
