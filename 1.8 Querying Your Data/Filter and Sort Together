@@ -1,0 +1,4 @@
+SELECT title, release_year, runtime_minutes
+FROM horror_movies
+WHERE release_year < 1980
+ORDER BY runtime_minutes DESC;
