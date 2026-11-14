@@ -1,0 +1,2 @@
+SELECT name, habitat
+FROM marine_animals;
