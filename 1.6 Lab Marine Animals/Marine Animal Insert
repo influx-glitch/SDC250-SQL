@@ -1,0 +1,66 @@
+INSERT INTO marine_animals (name, species, habitat, depth_range, diet, lifespan)
+VALUES 
+(
+        'Giant Pacific Octopus',
+        'Enteroctopus dofleini',
+        'North Pacific rocky reefs and ocean floor',
+        1500,
+        'Crabs, clams, and fish',
+        5
+    ),
+    (
+        'Bottlenose Dolphin',
+        'Tursiops truncatus',
+        'Temperate and tropical coastal and offshore waters',
+        1000,
+        'Fish, squid, and crustaceans',
+        60
+    ),
+    (
+        'Green Sea Turtle',
+        'Chelonia mydas',
+        'Tropical and subtropical coastal waters and seagrass beds',
+        140,
+        'Seagrasses and algae',
+        70
+    ),
+    (
+        'Great White Shark',
+        'Carcharodon carcharias',
+        'Temperate and subtropical coastal and open-ocean waters',
+        1200,
+        'Fish, squid, seals, and sea lions',
+        70
+    ),
+    (
+        'Common Clownfish',
+        'Amphiprion ocellaris',
+        'Tropical coral reefs and sheltered lagoons',
+        15,
+        'Algae and small invertebrates',
+        10
+    ),
+    (
+        'Giant Manta Ray',
+        'Mobula birostris',
+        'Tropical and subtropical open ocean and coastal waters',
+        1000,
+        'Zooplankton',
+        45
+    ),
+    (
+        'Blue Whale',
+        'Balaenoptera musculus',
+        'Open ocean worldwide',
+        500,
+        'Krill',
+        90
+    ),
+    (
+        'Common Octopus',
+        'Octopus vulgaris',
+        'Tropical and temperate rocky coastal waters',
+        150,
+        'Crabs, mollusks, and fish',
+        2
+    );
