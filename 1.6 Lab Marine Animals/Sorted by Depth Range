@@ -1,0 +1,2 @@
+SELECT * FROM marine_animals
+ORDER BY depth_range ASC;
