@@ -1,0 +1,4 @@
+SELECT title, genre, hours_played 
+FROM favorite_games 
+WHERE genre = 'RPG' 
+AND hours_played > 150; 
