@@ -1,0 +1,5 @@
+SELECT title, genre, hours_played
+FROM favorite_games
+WHERE (genre = 'Sandbox' OR genre = 'Open World')
+  AND hours_played > 120
+ORDER BY hours_played DESC;
