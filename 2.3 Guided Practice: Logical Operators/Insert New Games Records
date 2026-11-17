@@ -1,0 +1,2 @@
+INSERT INTO favorite_games (title, genre, hours_played) 
+VALUES ('Hollow Knight', 'Metroidvania', 125), ('Celeste', 'Platformer', 95);
