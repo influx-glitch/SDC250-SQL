@@ -1,4 +1,0 @@
-SELECT title, genre 
-FROM favorite_games 
-WHERE genre = 'RPG' 
-OR genre = 'Sandbox';

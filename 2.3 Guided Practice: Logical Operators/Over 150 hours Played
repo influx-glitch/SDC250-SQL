@@ -1,3 +1,0 @@
-SELECT title, hours_played 
-FROM favorite_games 
-WHERE hours_played > 150; 
