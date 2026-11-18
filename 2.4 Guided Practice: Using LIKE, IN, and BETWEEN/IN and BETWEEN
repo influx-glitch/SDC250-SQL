@@ -1,0 +1,4 @@
+SELECT title, genre, hours_played 
+FROM favorite_games 
+WHERE genre IN ('RPG', 'Shooter') 
+AND hours_played BETWEEN 100 AND 200;
