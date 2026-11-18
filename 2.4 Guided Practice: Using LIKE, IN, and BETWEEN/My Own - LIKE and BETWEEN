@@ -1,0 +1,4 @@
+SELECT title, genre, hours_played
+FROM favorite_games
+WHERE title LIKE 'S%'
+  AND hours_played BETWEEN 150 AND 250;
