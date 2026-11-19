@@ -1,0 +1,10 @@
+CREATE TABLE field_sightings (
+    sighting_id SERIAL PRIMARY KEY,
+    species_name TEXT,
+    zone TEXT,
+    depth_meters INT,
+    count_seen INT,
+    behavior TEXT,
+    risk_level TEXT,
+    reported_by TEXT
+);
