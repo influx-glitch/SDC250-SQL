@@ -1,0 +1,9 @@
+CREATE TABLE incident_response (
+    incident_id SERIAL PRIMARY KEY,
+    zone TEXT,
+    incident_type TEXT,
+    priority_level TEXT,
+    response_status TEXT,
+    assigned_team TEXT,
+    estimated_cost INT
+);
