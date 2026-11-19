@@ -1,0 +1,4 @@
+SELECT *
+FROM incident_response
+WHERE estimated_cost < 0
+   OR estimated_cost IS NULL;
