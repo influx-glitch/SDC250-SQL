@@ -1,0 +1,19 @@
+-- Preview --
+SELECT *
+FROM incident_response
+WHERE incident_type = 'Sensor Offline'
+  AND zone = 'Zone G'
+  AND response_status = 'Open';
+
+-- Update --
+UPDATE incident_response
+SET response_status = 'In Progress'
+WHERE incident_type = 'Sensor Offline'
+  AND zone = 'Zone G'
+  AND response_status = 'Open';
+
+-- Verify --
+SELECT *
+FROM incident_response
+WHERE incident_type = 'Sensor Offline'
+  AND zone = 'Zone G';
