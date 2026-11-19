@@ -1,0 +1,5 @@
+SELECT species_name, zone, risk_level, count_seen
+FROM field_sightings
+WHERE risk_level = 'High'
+   OR count_seen > 5
+ORDER BY count_seen DESC, species_name ASC, zone ASC;
