@@ -1,0 +1,16 @@
+INSERT INTO incident_response (zone, incident_type, priority_level, response_status, assigned_team, estimated_cost) VALUES
+('Zone A', 'Net Entanglement', 'High', 'Open', 'Rescue Team 1', 2500),
+('Zone C', 'Coral Damage', 'Medium', 'In Progress', 'Dive Team 2', 1800),
+('Zone B', 'Oil Sheen', 'High', 'Open', 'Hazmat Team', 4200),
+('Zone D', 'Equipment Drift', 'Low', 'Closed', 'Ops Team 1', 600),
+('Zone E', 'Buoy Failure', 'Medium', 'In Progress', 'Ops Team 2', 1300),
+('Zone F', 'Unauthorized Vessel', 'High', 'Open', 'Patrol Team', 3200),
+('Zone A', 'Test Record', 'Low', 'Open', 'Training', 0),
+('Zone C', 'Animal Injury', 'High', 'Open', 'Rescue Team 2', 2900),
+('Zone G', 'Sensor Offline', 'Medium', 'Open', 'Tech Team', 900),
+('Zone B', 'Debris Field', 'Medium', 'In Progress', 'Cleanup Team', 1500),
+('Zone H', 'Placeholder', 'Low', 'Open', 'Training', 0),
+('Zone D', 'Net Entanglement', 'High', 'In Progress', 'Rescue Team 1', 2700),
+('Zone E', 'Oil Sheen', 'High', 'Open', 'Hazmat Team', 4100),
+('Zone F', 'Buoy Failure', 'Medium', 'Closed', 'Ops Team 2', 1100),
+('Zone A', 'Data Entry Error', 'Low', 'Open', 'Training', 0);
