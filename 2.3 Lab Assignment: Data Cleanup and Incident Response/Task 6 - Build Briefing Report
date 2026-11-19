@@ -1,0 +1,5 @@
+SELECT *
+FROM incident_response
+WHERE priority_level = 'High'
+   OR estimated_cost > 3000
+ORDER BY estimated_cost DESC;
