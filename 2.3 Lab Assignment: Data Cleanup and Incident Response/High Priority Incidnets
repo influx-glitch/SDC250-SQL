@@ -1,0 +1,4 @@
+SELECT *
+FROM incident_response
+WHERE priority_level = 'High'
+  AND response_status = 'Open';
