@@ -1,0 +1,4 @@
+SELECT *
+FROM incident_response
+WHERE assigned_team = 'Training'
+   OR incident_type = 'Placeholder';
