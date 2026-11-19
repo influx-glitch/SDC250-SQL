@@ -1,0 +1,3 @@
+SELECT *
+FROM field_sightings
+WHERE risk_level <> 'Low';
