@@ -1,0 +1,4 @@
+SELECT *
+FROM field_sightings
+WHERE (zone = 'Zone C' OR zone = 'Zone F')
+  AND risk_level = 'High';
