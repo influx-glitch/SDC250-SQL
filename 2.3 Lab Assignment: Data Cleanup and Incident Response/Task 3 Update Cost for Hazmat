@@ -1,0 +1,17 @@
+-- Preview --
+SELECT *
+FROM incident_response
+WHERE incident_type = 'Oil Sheen'
+  AND response_status = 'Open';
+
+-- Update --
+UPDATE incident_response
+SET estimated_cost = 4500
+WHERE incident_type = 'Oil Sheen'
+  AND response_status = 'Open';
+
+-- Verify --
+SELECT *
+FROM incident_response
+WHERE incident_type = 'Oil Sheen'
+  AND response_status = 'Open';
