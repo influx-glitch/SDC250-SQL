@@ -1,0 +1,3 @@
+SELECT species_name, zone, depth_meters
+FROM field_sightings
+WHERE depth_meters > 50;
