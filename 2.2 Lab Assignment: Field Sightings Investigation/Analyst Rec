@@ -1,0 +1,5 @@
+SELECT zone, COUNT(*) AS high_priority_sightings
+FROM field_sightings
+WHERE risk_level = 'High'
+GROUP BY zone
+HAVING COUNT(*) >= 2;
