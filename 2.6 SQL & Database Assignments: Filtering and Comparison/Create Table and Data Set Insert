@@ -1,0 +1,27 @@
+CREATE TABLE horror_watchlist (
+    movie_id SERIAL PRIMARY KEY,
+    movie_title TEXT,
+    subgenre TEXT,
+    release_year INT,
+    runtime_minutes INT,
+    scare_rating INT
+);
+
+INSERT INTO horror_watchlist
+    (movie_title, subgenre, release_year, runtime_minutes, scare_rating)
+VALUES
+('Halloween', 'Slasher', 1978, 91, 8),
+('The Conjuring', 'Supernatural', 2013, 112, 9),
+('Scream', 'Slasher', 1996, 111, 7),
+('The Babadook', 'Psychological', 2014, 94, 8),
+('The Blair Witch Project', 'Found Footage', 1999, 81, 7),
+('Get Out', 'Psychological', 2017, 104, 8),
+('The Thing', 'Creature Feature', 1982, 109, 9),
+('A Quiet Place', 'Creature Feature', 2018, 90, 8),
+('Insidious', 'Supernatural', 2010, 103, 9),
+('The Others', 'Supernatural', 2001, 104, 7),
+('Saw', 'Psychological', 2004, 103, 8),
+('Friday the 13th', 'Slasher', 1980, 95, 7),
+('Paranormal Activity', 'Found Footage', 2007, 86, 8),
+('The Witch', 'Folk Horror', 2015, 92, 8),
+('Midsommar', 'Folk Horror', 2019, 148, 7);
