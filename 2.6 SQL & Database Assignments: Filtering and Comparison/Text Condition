@@ -1,0 +1,3 @@
+SELECT *
+FROM horror_watchlist
+WHERE subgenre = 'Supernatural';
