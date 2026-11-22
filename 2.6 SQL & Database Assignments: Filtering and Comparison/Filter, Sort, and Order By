@@ -1,0 +1,4 @@
+SELECT *
+FROM horror_movies
+WHERE release_year < 2000
+ORDER BY release_year ASC;
