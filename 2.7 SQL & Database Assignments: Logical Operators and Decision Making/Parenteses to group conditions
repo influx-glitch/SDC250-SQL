@@ -1,0 +1,4 @@
+SELECT *
+FROM horror_watchlist
+WHERE (subgenre = 'Supernatural' OR subgenre = 'Psychological')
+  AND scare_rating >= 5;
