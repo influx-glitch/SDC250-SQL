@@ -1,0 +1,2 @@
+SELECT movie_title, subgenre, scare_rating
+FROM horror_watchlist;
