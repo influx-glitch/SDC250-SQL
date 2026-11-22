@@ -1,0 +1,9 @@
+SELECT *
+FROM favorite_games
+WHERE hours_played >= 60
+  AND hours_played < 100;
+
+UPDATE favorite_games
+SET hours_played = 100
+WHERE hours_played >= 60
+  AND hours_played < 100;
