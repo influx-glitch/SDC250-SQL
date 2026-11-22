@@ -1,0 +1,4 @@
+SELECT *
+FROM horror_watchlist
+WHERE subgenre = 'Slasher'
+   OR subgenre = 'Found Footage';
