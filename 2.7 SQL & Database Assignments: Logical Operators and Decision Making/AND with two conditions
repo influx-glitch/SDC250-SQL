@@ -1,0 +1,5 @@
+SELECT *
+FROM horror_watchlist
+WHERE release_year < 2000
+  AND scare_rating >= 8
+ORDER BY scare_rating DESC, movie_title ASC;
