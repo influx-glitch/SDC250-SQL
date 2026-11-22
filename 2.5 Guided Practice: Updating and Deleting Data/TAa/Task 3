@@ -1,0 +1,3 @@
+UPDATE favorite_games 
+SET hours_played = 50 
+WHERE hours_played < 50;
