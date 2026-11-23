@@ -1,0 +1,6 @@
+INSERT INTO game_reviews (game_id, rating, review_text) 
+VALUES (1, 9, 'Amazing gameplay'), 
+(2, 8, 'Great story'), 
+(3, 7, 'Fun but repetitive'), 
+(4, 10, 'Masterpiece'), 
+(5, 6, 'Needs improvement'); 
