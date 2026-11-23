@@ -1,0 +1,4 @@
+SELECT favorite_games.title, game_reviews.rating 
+FROM favorite_games 
+INNER JOIN game_reviews 
+ON favorite_games.id = game_reviews.game_id;
