@@ -1,0 +1,5 @@
+SELECT conservation_status,
+       COUNT(*) AS species_count
+FROM marine_species_registry
+GROUP BY conservation_status
+ORDER BY conservation_status;
