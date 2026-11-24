@@ -1,0 +1,6 @@
+SELECT report_status,
+       COUNT(*) AS total_reports,
+       SUM(observation_count) AS total_observations
+FROM marine_observation_reports
+GROUP BY report_status
+ORDER BY total_observations DESC;
