@@ -1,0 +1,2 @@
+SELECT CONCAT(species_name, ' - ', habitat_zone) AS species_zone_label
+FROM marine_observation_reports;
