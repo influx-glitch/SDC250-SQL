@@ -1,0 +1,8 @@
+INSERT INTO habitat_registry (habitat_name, ocean_zone, depth_category, avg_depth_meters) VALUES
+('Coral Reef', 'Neritic Zone', 'Shallow', 18.75),
+('Kelp Forest', 'Neritic Zone', 'Medium', 32.50),
+('Open Ocean', 'Pelagic Zone', 'Deep', 150.25),
+('Mangrove Coast', 'Coastal Zone', 'Shallow', 6.40),
+('Deep Trench', 'Hadal Zone', 'Extreme', 7200.00),
+('Seagrass Meadow', 'Coastal Zone', 'Shallow', 9.85),
+('Rocky Shore', 'Intertidal Zone', 'Shallow', 4.20);
