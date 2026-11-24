@@ -1,0 +1,3 @@
+SELECT * FROM habitat_registry;
+
+SELECT * FROM marine_species_registry;
