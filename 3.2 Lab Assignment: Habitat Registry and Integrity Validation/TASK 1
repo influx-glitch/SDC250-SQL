@@ -1,0 +1,3 @@
+SELECT *
+FROM habitat_registry
+ORDER BY habitat_name ASC;
