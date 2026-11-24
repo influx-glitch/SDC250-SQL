@@ -1,0 +1,4 @@
+SELECT *
+FROM marine_species_registry
+WHERE population_count < 0
+   OR population_count IS NULL;
