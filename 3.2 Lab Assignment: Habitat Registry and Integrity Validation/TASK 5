@@ -1,0 +1,3 @@
+SELECT species_name, conservation_status, average_lifespan
+FROM marine_species_registry
+ORDER BY average_lifespan DESC;
