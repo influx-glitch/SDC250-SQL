@@ -1,0 +1,17 @@
+INSERT INTO marine_observation_reports 
+(species_name, habitat_zone, observation_count, average_depth, water_temperature, lead_researcher, report_status) VALUES
+('Green Sea Turtle', 'Zone A', 14, 22.50, 24.70, 'Lopez', 'Submitted'),
+('Manta Ray', 'Zone B', 8, 44.75, 23.30, 'Nguyen', 'Submitted'),
+('Hammerhead Shark', 'Zone C', 5, 82.10, 21.60, 'Patel', 'Under Review'),
+('Sea Otter', 'Zone D', 11, 16.40, 17.80, 'Jackson', 'Submitted'),
+('Whale Shark', 'Zone E', 2, 120.90, 20.20, 'Nguyen', 'Under Review'),
+('Jellyfish Bloom', 'Zone B', 25, 12.20, 25.10, 'Lopez', 'Submitted'),
+('Reef Shark', 'Zone C', 7, 61.00, 22.00, 'Patel', 'Submitted'),
+('Sea Horse Cluster', 'Zone A', 18, 7.50, 26.40, 'Jackson', 'Draft'),
+('Lionfish', 'Zone C', 16, 33.25, 24.10, 'Lopez', 'Submitted'),
+('Octopus', 'Zone D', 6, 55.85, 18.90, 'Nguyen', 'Draft'),
+('Manatee', 'Zone B', 4, 10.75, 26.00, 'Patel', 'Submitted'),
+('Giant Squid', 'Zone E', 1, 340.60, 8.40, 'Jackson', 'Under Review'),
+('Dolphin Pod', 'Zone A', 12, 28.30, 23.90, 'Lopez', 'Submitted'),
+('Barracuda', 'Zone C', 9, 47.45, 24.50, 'Nguyen', 'Submitted'),
+('Sea Turtle Hatchlings', 'Zone F', 22, 3.80, 27.20, 'Patel', 'Submitted');
