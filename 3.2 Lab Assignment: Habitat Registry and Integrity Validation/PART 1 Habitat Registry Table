@@ -1,0 +1,7 @@
+CREATE TABLE habitat_registry (
+    habitat_id SERIAL PRIMARY KEY,
+    habitat_name TEXT NOT NULL,
+    ocean_zone TEXT,
+    depth_category TEXT,
+    avg_depth_meters DECIMAL(6,2)
+);
