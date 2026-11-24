@@ -1,0 +1,5 @@
+SELECT species_name,
+       water_temperature AS temperature_celsius,
+       ROUND((water_temperature * 9.0 / 5) + 32, 2)
+           AS temperature_fahrenheit
+FROM marine_observation_reports;
