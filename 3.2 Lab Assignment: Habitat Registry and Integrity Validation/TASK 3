@@ -1,0 +1,3 @@
+SELECT UPPER(habitat_name) AS habitat_name,
+       LOWER(ocean_zone) AS ocean_zone
+FROM habitat_registry;
