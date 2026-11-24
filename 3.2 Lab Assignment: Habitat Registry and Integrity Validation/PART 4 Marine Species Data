@@ -1,0 +1,9 @@
+('Great White Shark', 3, 'Vulnerable', 70, 3),
+('Sea Otter', 2, 'Protected', 20, 12),
+('Giant Kelp Crab', 2, 'Stable', 6, 28),
+('Mangrove Snapper', 4, 'Stable', 15, 22),
+('Manatee', 4, 'Protected', 60, 5),
+('Lanternfish', 5, 'Stable', 5, 80),
+('Giant Squid', 5, 'Data Deficient', 12, 2),
+('Seahorse', 6, 'Threatened', 4, 16),
+('Stingray', 6, 'Stable', 25, 9);
