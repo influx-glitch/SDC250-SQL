@@ -1,0 +1,5 @@
+SELECT habitat_zone,
+       ROUND(AVG(average_depth), 2) AS average_depth_meters
+FROM marine_observation_reports
+GROUP BY habitat_zone
+ORDER BY average_depth_meters DESC;
