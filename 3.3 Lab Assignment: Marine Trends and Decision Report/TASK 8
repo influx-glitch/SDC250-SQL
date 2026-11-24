@@ -1,0 +1,5 @@
+SELECT lead_researcher,
+       COUNT(*) AS total_reports
+FROM marine_observation_reports
+GROUP BY lead_researcher
+ORDER BY total_reports DESC, lead_researcher ASC;
