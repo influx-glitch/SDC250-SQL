@@ -1,0 +1,2 @@
+SELECT LOWER(report_status) AS report_status
+FROM marine_observation_reports;
