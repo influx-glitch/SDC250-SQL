@@ -1,0 +1,3 @@
+SELECT habitat_name,
+       ROUND(avg_depth_meters, 0) AS rounded_depth_meters
+FROM habitat_registry;
