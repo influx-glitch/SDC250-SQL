@@ -1,0 +1,8 @@
+CREATE TABLE marine_species_registry (
+    species_id SERIAL PRIMARY KEY,
+    species_name TEXT NOT NULL,
+    habitat_id INT REFERENCES habitat_registry(habitat_id),
+    conservation_status TEXT,
+    average_lifespan INT,
+    population_count INT
+);
