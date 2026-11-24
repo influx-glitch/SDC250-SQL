@@ -1,0 +1,4 @@
+SELECT species_name,
+       habitat_zone,
+       ROUND(average_depth, 0) AS rounded_depth_meters
+FROM marine_observation_reports;
