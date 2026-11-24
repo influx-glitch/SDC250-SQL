@@ -1,0 +1,5 @@
+SELECT habitat_zone,
+       SUM(observation_count) AS total_observations
+FROM marine_observation_reports
+GROUP BY habitat_zone
+ORDER BY habitat_zone;
