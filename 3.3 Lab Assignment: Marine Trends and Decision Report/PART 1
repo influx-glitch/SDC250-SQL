@@ -1,0 +1,10 @@
+CREATE TABLE marine_observation_reports (
+    report_id SERIAL PRIMARY KEY,
+    species_name TEXT,
+    habitat_zone TEXT,
+    observation_count INT,
+    average_depth DECIMAL(6,2),
+    water_temperature DECIMAL(5,2),
+    lead_researcher TEXT,
+    report_status TEXT
+);
