@@ -1,0 +1,3 @@
+SELECT species_name,
+       UPPER(lead_researcher) AS researcher_name
+FROM marine_observation_reports;
