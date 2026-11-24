@@ -1,0 +1,5 @@
+SELECT habitat_id,
+       SUM(population_count) AS total_population
+FROM marine_species_registry
+GROUP BY habitat_id
+ORDER BY habitat_id;
