@@ -1,0 +1,3 @@
+SELECT *
+FROM marine_species_registry
+WHERE habitat_id IS NULL;
