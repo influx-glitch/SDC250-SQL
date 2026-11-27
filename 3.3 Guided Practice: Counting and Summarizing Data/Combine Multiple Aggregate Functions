@@ -1,0 +1,4 @@
+SELECT COUNT(*) AS total_games,
+       AVG(hours_played) AS average_hours,
+       MAX(hours_played) AS highest_hours
+FROM favorite_games;
