@@ -1,0 +1,3 @@
+SELECT genre, AVG(hours_played) AS average_hours
+FROM favorite_games
+GROUP BY genre;
