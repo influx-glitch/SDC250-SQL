@@ -1,0 +1,3 @@
+SELECT MIN(hours_played) AS lowest_hours,
+       MAX(hours_played) AS highest_hours
+FROM favorite_games;
