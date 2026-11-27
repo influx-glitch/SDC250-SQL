@@ -1,0 +1,7 @@
+SELECT genre,
+       COUNT(*) AS game_count,
+       ROUND(AVG(hours_played), 2) AS avg_hours,
+       SUM(hours_played) AS total_hours
+FROM favorite_games
+GROUP BY genre
+ORDER BY total_hours DESC;
