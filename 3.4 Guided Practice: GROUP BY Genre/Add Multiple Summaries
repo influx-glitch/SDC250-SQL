@@ -1,0 +1,5 @@
+SELECT genre,
+       COUNT(*) AS total_games,
+       MAX(hours_played) AS highest_hours
+FROM favorite_games
+GROUP BY genre;
