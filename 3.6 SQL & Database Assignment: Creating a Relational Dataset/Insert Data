@@ -1,0 +1,39 @@
+INSERT INTO authors (author_id, author_name, country) VALUES
+(1, 'Jane Austen', 'United Kingdom'),
+(2, 'George Orwell', 'United Kingdom'),
+(3, 'Toni Morrison', 'United States'),
+(4, 'Gabriel Garcia Marquez', 'Colombia'),
+(5, 'Haruki Murakami', 'Japan'),
+(6, 'Chinua Achebe', 'Nigeria'),
+(7, 'Agatha Christie', 'United Kingdom'),
+(8, 'Stephen King', 'United States'),
+(9, 'J.R.R. Tolkien', 'United Kingdom'),
+(10, 'Margaret Atwood', 'Canada');
+
+
+INSERT INTO genres (genre_id, genre_name) VALUES
+(1, 'Classic'),
+(2, 'Dystopian'),
+(3, 'Historical Fiction'),
+(4, 'Magical Realism'),
+(5, 'Fantasy'),
+(6, 'Mystery'),
+(7, 'Horror'),
+(8, 'Literary Fiction'),
+(9, 'Romance'),
+(10, 'Science Fiction');
+
+
+INSERT INTO books (book_id, title, publication_year, pages, author_id, genre_id) VALUES
+(1, 'Pride and Prejudice', 1813, 432, 1, 9),
+(2, '1984', 1949, 328, 2, 2),
+(3, 'Animal Farm', 1945, 112, 2, 1),
+(4, 'Beloved', 1987, 324, 3, 3),
+(5, 'One Hundred Years of Solitude', 1967, 417, 4, 4),
+(6, 'Norwegian Wood', 1987, 296, 5, 8),
+(7, 'Kafka on the Shore', 2002, 467, 5, 4),
+(8, 'Things Fall Apart', 1958, 209, 6, 1),
+(9, 'Murder on the Orient Express', 1934, 256, 7, 6),
+(10, 'The Shining', 1977, 447, 8, 7),
+(11, 'The Hobbit', 1937, 310, 9, 5),
+(12, 'The Handmaid''s Tale', 1985, 311, 10, 2);
