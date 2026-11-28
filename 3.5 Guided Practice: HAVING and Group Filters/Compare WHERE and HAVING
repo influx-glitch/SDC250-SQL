@@ -1,0 +1,9 @@
+SELECT genre, COUNT(*) AS total_games
+FROM favorite_games
+WHERE hours_played > 50
+GROUP BY genre;
+
+SELECT genre, COUNT(*) AS total_games
+FROM favorite_games
+GROUP BY genre
+HAVING COUNT(*) > 1;
