@@ -1,0 +1,7 @@
+SELECT genre,
+       COUNT(*) AS total_games,
+       SUM(hours_played) AS total_hours
+FROM favorite_games
+GROUP BY genre
+HAVING SUM(hours_played) > 100
+ORDER BY total_hours DESC;
