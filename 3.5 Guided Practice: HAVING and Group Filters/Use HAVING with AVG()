@@ -1,0 +1,4 @@
+SELECT genre, AVG(hours_played) AS average_hours
+FROM favorite_games
+GROUP BY genre
+HAVING AVG(hours_played) > 100;
