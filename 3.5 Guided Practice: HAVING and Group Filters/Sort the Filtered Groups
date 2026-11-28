@@ -1,0 +1,5 @@
+SELECT genre, COUNT(*) AS total_games
+FROM favorite_games
+GROUP BY genre
+HAVING COUNT(*) > 1
+ORDER BY total_games DESC;
